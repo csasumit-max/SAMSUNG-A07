@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy A07 5G | Samsung Malaysia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .hero-gradient { background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tighter">SAMSUNG <span class="font-normal">Galaxy A07 5G</span></h1>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#features" class="hover:text-blue-600">Features</a>
+                <a href="#specs" class="hover:text-blue-600">Specifications</a>
+                <a href="#buy" class="bg-black text-white px-5 py-2 rounded-full hover:bg-gray-800 transition">Buy Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 hero-gradient overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6 text-center md:text-left">
+                <span class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-bold">NEW RELEASE</span>
+                <h2 class="text-5xl md:text-7xl font-extrabold leading-tight">Awesome is for <br><span class="text-blue-600">everyone.</span></h2>
+                <p class="text-xl text-gray-600 max-w-lg">Experience the power of 5G with a massive 6,000mAh battery and a super smooth 120Hz display.</p>
+                <div class="pt-4">
+                    <p class="text-sm text-gray-500 uppercase font-bold mb-2">Starting from</p>
+                    <p class="text-4xl font-bold">RM 699.00</p>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+                <!-- Placeholder for Phone Image -->
+                <div class="w-64 h-[500px] bg-slate-300 rounded-[3rem] border-8 border-gray-800 shadow-2xl relative overflow-hidden">
+                    <div class="absolute top-0 w-full h-full bg-gradient-to-tr from-violet-200 to-green-100 flex items-center justify-center text-gray-400">
+                        <i class="fa-solid fa-mobile-screen-button text-6xl opacity-20"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Grid -->
+    <section id="features" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-16">Why Galaxy A07?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center space-y-4">
+                    <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto text-blue-600 text-2xl">
+                        <i class="fa-solid fa-battery-full"></i>
+                    </div>
+                    <h4 class="font-bold text-xl">6,000mAh Battery</h4>
+                    <p class="text-gray-500">Go for up to two days without charging. Power through your content all day long.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="w-16 h-16 bg-purple-50 rounded-2xl flex items-center justify-center mx-auto text-purple-600 text-2xl">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h4 class="font-bold text-xl">120Hz Refresh Rate</h4>
+                    <p class="text-gray-500">A 6.7" edge-to-edge display with ultra-smooth scrolling and 800 nits brightness.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center mx-auto text-green-600 text-2xl">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h4 class="font-bold text-xl">6 Years of Updates</h4>
+                    <p class="text-gray-500">Stay secure and up-to-date with 6 generations of Android OS upgrades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Specs Section -->
+    <section id="specs" class="py-24 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100">
+                <h3 class="text-3xl font-bold mb-8">Technical Specifications</h3>
+                <div class="space-y-6">
+                    <div class="flex border-b border-gray-100 pb-4">
+                        <span class="w-1/3 font-bold">Display</span>
+                        <span class="w-2/3 text-gray-600">6.7" PLS LCD, 120Hz Refresh Rate, 800 nits</span>
+                    </div>
+                    <div class="flex border-b border-gray-100 pb-4">
+                        <span class="w-1/3 font-bold">Processor</span>
+                        <span class="w-2/3 text-gray-600">MediaTek Dimensity 6300 (Octa-Core)</span>
+                    </div>
+                    <div class="flex border-b border-gray-100 pb-4">
+                        <span class="w-1/3 font-bold">Camera</span>
+                        <span class="w-2/3 text-gray-600">50MP Main + 2MP Depth | 8MP Selfie</span>
+                    </div>
+                    <div class="flex border-b border-gray-100 pb-4">
+                        <span class="w-1/3 font-bold">Memory</span>
+                        <span class="w-2/3 text-gray-600">8GB RAM + 256GB Storage (Expandable)</span>
+                    </div>
+                    <div class="flex">
+                        <span class="w-1/3 font-bold">Durability</span>
+                        <span class="w-2/3 text-gray-600">IP54 Dust and Water Resistance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-gray-400 mb-4">© 2026 Samsung Electronics Co., Ltd. Simulated images for illustration purposes.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="hover:text-blue-400"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="hover:text-blue-400"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="hover:text-blue-400"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
